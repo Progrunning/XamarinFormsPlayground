@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C93590F3-922A-4215-9928-1C23D269BF06}</ProjectGuid>
+    <ProjectGuid>{D8A6CFC9-C337-4B98-A08D-A78E00912FE6}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
@@ -130,7 +130,7 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\XamarinFormsPlayground\XamarinFormsPlayground.csproj">
-      <Project>{6AD348AD-F561-4138-8352-DD2CEDCBEDA8}</Project>
+      <Project>{49508971-C476-4225-ABC6-476C7E68924B}</Project>
       <Name>XamarinFormsPlayground</Name>
     </ProjectReference>
   </ItemGroup>

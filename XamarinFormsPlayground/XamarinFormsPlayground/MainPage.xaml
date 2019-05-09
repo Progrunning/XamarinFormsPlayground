@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:local="clr-namespace:XamarinFormsPlayground"
+             xmlns:controls="clr-namespace:XamarinFormsPlayground.Controls;assembly=XamarinFormsPlayground"
              x:Class="XamarinFormsPlayground.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
-
+  <controls:CustomFrame CornerRadius="0,0,30,30"
+                        BackgroundColor="Red"
+                        HorizontalOptions="Center"
+                        VerticalOptions="Center"
+                        HeightRequest="100"
+                        WidthRequest="100" />
 </ContentPage>
